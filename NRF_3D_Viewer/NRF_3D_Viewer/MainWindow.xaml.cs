@@ -230,6 +230,11 @@ namespace NRF_3D_Viewer
             isUpsideDown = tilt >= 150.0 ? true : false;
         }
 
+        private void Device_ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
         private void scanBtn_Click(object sender, RoutedEventArgs e)
         {
             //init occurred?
